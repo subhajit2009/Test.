@@ -1,83 +1,101 @@
 ⚡ Subhajit Mal — Developer Portfolio
 
 <p align="center">
+  <a href="https://github.com/subhajit2009">
+    <img src="https://img.shields.io/badge/GitHub-Subhajit%20Mal-181717?style=for-the-badge&logo=github" alt="GitHub">
+  </a>
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
-  <img src="https://img.shields.io/badge/Responsive-Design-00D084?style=for-the-badge" alt="Responsive Design">
-</p><p align="center">
-  A futuristic, high-performance personal portfolio built with pure HTML5, CSS3 and Vanilla JavaScript.
 </p><p align="center">
   <strong>App Developer • Web Developer • Trader</strong>
+</p><p align="center">
+  A modern, performance-focused developer portfolio built from the ground up
+  with semantic HTML, modern CSS and vanilla JavaScript.
 </p>---
 
-🌐 Live Portfolio
+🚀 Overview
 
-«Add your deployed website link here.»
+Subhajit Mal Portfolio is a futuristic personal developer portfolio designed to showcase projects, technical skills, development interests and interactive experiments in a clean, high-performance interface.
 
-Live Demo: "YOUR_DEPLOYED_URL"
+The project intentionally avoids heavy frontend frameworks and uses a lightweight architecture based on:
 
----
+HTML5
+CSS3
+Vanilla JavaScript
+SVG
 
-👨‍💻 About Me
+The goal is simple:
 
-Hi, I'm Subhajit Mal.
-
-I'm a developer interested in building modern web applications, mobile applications and technology-driven projects.
-
-🚀 Roles
-
-- 📱 App Developer
-- 🌐 Web Developer
-- 📊 Trader
-- 💻 Software & Technology Enthusiast
+«Fast. Interactive. Maintainable. Developer-focused.»
 
 ---
 
-✨ Features
+✨ Highlights
 
-🎨 Modern UI
-
-- Dark futuristic interface
-- Glassmorphism effects
-- Neon-style accents
-- Smooth gradients
-- Responsive layouts
-- Interactive cards
-- Animated borders
-
-⚡ Interactive Experience
-
-- Dynamic hero role animation
-- Mobile navigation
-- Scroll reveal animations
-- Cursor spotlight
-- Magnetic buttons
-- 3D card tilt
-- Project category filtering
-- Animated SVG market chart
-- Interactive Market Lab
-
-📱 Responsive
-
-Designed to work across:
-
-- 📱 Mobile
-- 📲 Tablet
-- 💻 Laptop
-- 🖥️ Desktop
+- ⚡ Zero-framework frontend
+- 🎨 Futuristic dark UI
+- 🧊 Glassmorphism components
+- 📱 Fully responsive layout
+- 🖱️ Interactive cursor spotlight
+- 🧲 Magnetic CTA buttons
+- 🎯 3D project card tilt
+- 🔄 Dynamic role animation
+- 🔎 Project category filtering
+- 📈 Animated SVG market visualization
+- 📊 Interactive Market Lab UI
+- ♿ Reduced-motion support
+- 🚀 No build process required
 
 ---
 
-🛠️ Tech Stack
+🧠 Architecture
 
-Technology| Usage
-HTML5| Website structure
-CSS3| UI, animations & responsive design
-JavaScript| Interactions & functionality
-SVG| Charts & graphics
+The project follows a deliberately simple static architecture.
+
+┌──────────────────────────────────────┐
+│             Browser                  │
+└──────────────────┬───────────────────┘
+                   │
+          ┌────────▼────────┐
+          │    index.html   │
+          │   Semantic UI   │
+          └────────┬────────┘
+                   │
+          ┌────────▼────────┐
+          │    style.css    │
+          │ Design System   │
+          └────────┬────────┘
+                   │
+          ┌────────▼────────┐
+          │    script.js    │
+          │ Interactions    │
+          └─────────────────┘
+
+No framework runtime or server-side rendering is required.
+
+---
+
+🛠️ Technology Stack
+
+Frontend
+
+Technology| Purpose
+HTML5| Semantic structure
+CSS3| Layout, styling & animation
+JavaScript| Interactions & dynamic UI
+SVG| Lightweight graphics & charts
 Lucide Icons| Interface icons
-Google Fonts| Typography
+
+Engineering Principles
+
+- Semantic HTML
+- Progressive enhancement
+- Responsive-first design
+- Minimal dependencies
+- Component-like CSS organization
+- Performance-conscious animations
+- Accessibility-aware interactions
 
 ---
 
@@ -88,235 +106,305 @@ subhajit-mal-portfolio/
 ├── index.html
 ├── style.css
 ├── script.js
+├── README.md
 │
-└── README.md
+└── screenshots/
+    ├── home.png
+    ├── about.png
+    ├── projects.png
+    └── market-lab.png
 
 ---
 
-🎯 Main Sections
+🎨 Design Direction
 
-🏠 Hero
+The visual language is inspired by modern developer products and interfaces such as:
 
-The landing section introduces:
+- Vercel
+- Linear
+- Apple
+- Modern developer dashboards
 
-- Name
-- Developer roles
-- Short introduction
-- Call-to-action buttons
-- Technology ticker
+Color System
+
+Background   → #0D0E12
+Primary      → Emerald Green
+Secondary    → Cyan
+Surface      → Dark Glass
+Text         → High Contrast
+
+The interface combines:
+
+Minimalism + Glassmorphism + Motion + Developer Aesthetics
+
+---
+
+🧩 Core Sections
+
+01 — Hero
+
+The landing experience introduces the developer through:
+
+- Dynamic role animation
 - Developer terminal visual
-- Trading chart animation
+- Animated technology ticker
+- Trading-inspired visualization
+- Primary call-to-action buttons
 
-👤 About
+---
 
-A personal profile section highlighting development interests and experience.
+02 — About
 
-🧠 Skills
+A concise developer profile section focused on:
 
-Skills are grouped into:
+- Development interests
+- Technical mindset
+- Projects
+- Technology exploration
 
-- App Development
-- Web Development
-- Trading & Quant
+---
 
-🚀 Projects
+03 — Skills
 
-Interactive project cards with category filters:
+Skills are organized into focused categories:
+
+App Development
+Web Development
+Trading & Quant
+
+This keeps the information architecture easy to scan.
+
+---
+
+04 — Projects
+
+Projects are presented using interactive cards.
+
+Available filters:
 
 All
 Web
 Mobile Apps
 Trading Tools
 
-Each project can contain:
+Each card can include:
 
-- Project description
+- Project title
+- Description
 - Technology stack
 - GitHub repository
 - Interactive hover effects
 
-📊 Market Lab
+---
 
-A futuristic trading-inspired dashboard containing demo market analytics.
+05 — Market Lab
 
-«⚠️ Market Lab data is for UI demonstration purposes only and is not financial advice.»
+A dedicated experimental interface inspired by trading dashboards.
 
-📩 Contact
+It includes:
 
-A modern contact section with:
+- Market metrics
+- Chart visualization
+- Price-style UI
+- Analytics cards
+- Trading-inspired interactions
+
+«Disclaimer: Market Lab is an illustrative UI experiment. It does not provide financial advice or real trading signals.»
+
+---
+
+06 — Contact
+
+A minimal contact section provides:
 
 - Contact form
 - GitHub
 - Instagram
-- Social links
-
----
-
-🎨 Design System
-
-Background
-
-#0D0E12
-
-Accent Colors
-
-Emerald Green
-Cyan
-
-Design Style
-
-Futuristic
-Minimal
-Dark
-Glassmorphism
-High-Tech
-Developer-focused
-
----
-
-🔗 Social Links
-
-GitHub
-
-https://github.com/subhajit2009
-
-Instagram
-
-https://www.instagram.com/dear__x__
-
----
-
-💻 Run Locally
-
-No framework or build system is required.
-
-1. Clone the repository
-
-git clone https://github.com/subhajit2009/YOUR-REPOSITORY.git
-
-2. Open the project
-
-cd YOUR-REPOSITORY
-
-3. Run
-
-Simply open:
-
-index.html
-
-Or use VS Code Live Server.
-
----
-
-🚀 Deployment
-
-This project can be deployed easily using:
-
-- GitHub Pages
-- Netlify
-- Vercel
-- Cloudflare Pages
-
-Because the project uses pure HTML, CSS and JavaScript, no Node.js server is required.
+- Social connections
 
 ---
 
 ⚡ Performance
 
-The portfolio is designed with performance in mind:
+Performance is treated as a first-class feature.
 
-- No React
-- No Next.js
-- No build step
-- Minimal JavaScript
-- CSS animations
-- SVG graphics
-- Responsive layout
-- Reduced-motion support
+Why Vanilla JavaScript?
+
+This portfolio does not require a frontend framework because the interface is primarily a static presentation layer.
+
+Benefits include:
+
+- Smaller runtime overhead
+- Faster initial loading
+- No dependency installation
+- No compilation step
+- Easy deployment
+- Simple maintenance
+
+---
+
+📱 Responsive Design
+
+The UI adapts across common viewport sizes:
+
+Mobile
+   ↓
+Tablet
+   ↓
+Laptop
+   ↓
+Desktop
+
+Layouts, navigation, typography and interactive elements adapt automatically.
 
 ---
 
 ♿ Accessibility
 
-The interface includes:
+Accessibility considerations include:
 
-- Semantic HTML
+- Semantic HTML elements
 - Keyboard-friendly controls
-- Accessible buttons
+- Accessible navigation
 - Responsive typography
 - Reduced-motion support
-- Clear contrast
-- Mobile navigation
+- Readable contrast
+- Mobile-friendly interaction targets
 
 ---
 
 🔐 Security
 
-This portfolio is a static frontend project.
+This project is a static frontend.
 
-No sensitive credentials or API keys should be stored inside:
-
-index.html
-style.css
-script.js
-
-Never commit:
+Never commit sensitive data
 
 .env
-API keys
-Private tokens
+API Keys
+Private Tokens
 Passwords
-Secret credentials
+Authentication Secrets
+Database Credentials
+
+Keep sensitive configuration outside publicly accessible frontend files.
 
 ---
 
-📸 Screenshots
+💻 Local Development
 
-Add screenshots of your portfolio here:
+Clone
 
-![Portfolio Preview](screenshots/home.png)
+git clone https://github.com/subhajit2009/YOUR-REPOSITORY.git
 
-Recommended structure:
+Enter directory
 
-screenshots/
-├── home.png
-├── about.png
-├── projects.png
-└── market-lab.png
+cd YOUR-REPOSITORY
+
+Run
+
+Open:
+
+index.html
+
+For a better development workflow, use VS Code with Live Server.
+
+No:
+
+npm install
+npm run build
+npm start
+
+is required.
 
 ---
 
-📌 Future Improvements
+🌍 Deployment
 
-Possible future updates:
+The project is compatible with static hosting platforms including:
 
-- [ ] Real project data
-- [ ] Backend contact form
-- [ ] Email integration
-- [ ] Blog section
-- [ ] Project detail pages
+- GitHub Pages
+- Netlify
+- Cloudflare Pages
+- Vercel Static Hosting
+
+Simply upload the project files and configure the hosting provider to serve:
+
+index.html
+
+as the entry point.
+
+---
+
+🔗 Connect
+
+<p align="center"><a href="https://github.com/subhajit2009">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white">
+</a><a href="https://www.instagram.com/dear__x__">
+  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white">
+</a></p>---
+
+🗺️ Roadmap
+
+- [x] Responsive portfolio
+- [x] Interactive hero
+- [x] Project filtering
+- [x] Animated visualizations
+- [x] Market Lab UI
+- [x] Mobile navigation
+- [x] Accessibility improvements
+
+Planned
+
+- [ ] Backend-powered contact form
 - [ ] GitHub API integration
-- [ ] Real-time market API
-- [ ] Admin dashboard
-- [ ] Analytics
+- [ ] Dynamic project data
+- [ ] Blog / Articles
+- [ ] Project detail pages
 - [ ] PWA support
+- [ ] Analytics dashboard
 
 ---
 
-⭐ Support
+📸 Preview
 
-If you like this project, consider giving the repository a ⭐ on GitHub.
+Add screenshots here:
+
+![Home](screenshots/home.png)
+
+![Projects](screenshots/projects.png)
+
+![Market Lab](screenshots/market-lab.png)
+
+---
+
+⭐ Why This Project?
+
+This portfolio is more than a static profile page.
+
+It is a frontend engineering experiment focused on:
+
+Design
+   +
+Interaction
+   +
+Performance
+   +
+Accessibility
+   +
+Maintainability
+
+The objective is to create a professional developer presence without unnecessary framework complexity.
 
 ---
 
 📄 License
 
-This project is created for personal portfolio and educational purposes.
+This project is intended for personal portfolio and educational use.
 
 ---
 
 <p align="center">
-  Built with ❤️ using HTML5, CSS3 & Vanilla JavaScript
+  <strong>Built with HTML5 • CSS3 • Vanilla JavaScript</strong>
 </p><p align="center">
-  <strong>© 2026 Subhajit Mal</strong>
-</p># Test.
+  © 2026 Subhajit Mal
+</p>
